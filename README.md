@@ -1,1 +1,1 @@
-# Structures_and_algorithms_of_computer_data_processing___Lab_1
+# Структуры и алгоритмы компьютерной обработки данных | Лабораторная работа 1 | Вариант 11
