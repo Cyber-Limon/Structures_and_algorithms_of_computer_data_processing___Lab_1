@@ -61,7 +61,7 @@ int main() {
 			for (; n < transition; n++) {
 				if (table[(pos + n * n) % size_table] == 0) {
 					table[(pos + n * n) % size_table] = r;
-					steps = steps + n;
+					steps = steps + n + 1;
 					break;
 				}
 			}
@@ -71,7 +71,7 @@ int main() {
 					n++;
 
 				table[(pos + n) % size_table] = r;
-				steps = steps + n;
+				steps = steps + n + 1;
 			}
 			
 		}
