@@ -74,7 +74,7 @@ int main() {
 				steps = steps + n + 1;
 			}			
 		}        
-        	}
+        }
 
 	cout << "\n\nХеш-таблица:\n";
 
