@@ -72,10 +72,9 @@ int main() {
 
 				table[(pos + n) % size_table] = r;
 				steps = steps + n + 1;
-			}
-			
-		}
-	}
+			}			
+		}        
+        	}
 
 	cout << "\n\nХеш-таблица:\n";
 
