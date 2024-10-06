@@ -64,15 +64,16 @@ int main() {
 					steps = steps + n;
 					break;
 				}
-				
-				if (n == transition) {
-					while (table[(pos + n) % size_table] != 0)
-						n++;
-
-					table[(pos + n) % size_table] = r;
-					steps = steps + n;
-				}
 			}
+			
+			if (n == transition) {
+				while (table[(pos + n) % size_table] != 0)
+					n++;
+
+				table[(pos + n) % size_table] = r;
+				steps = steps + n;
+			}
+			
 		}
 	}
 
