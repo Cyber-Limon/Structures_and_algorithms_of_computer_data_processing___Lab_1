@@ -48,7 +48,7 @@ int main() {
 		cout << r << "\t";
 
 		int pos = ((r / 100000 + r / 10000 % 10) % 10 * 100 + (r / 1000 % 100 + r / 100 % 1000) % 10 * 10 
-															+ (r / 10 % 10000 + r % 10) % 10) % size_table;
+								    + (r / 10 % 10000 + r % 10) % 10) % size_table;
 
 		if (table[pos] == 0) {
 			table[pos] = r;
